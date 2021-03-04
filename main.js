@@ -1,13 +1,23 @@
 function numberDoubler(num) {
-    // Your code here
+    while (num < 100) {
+        num = num * 2;
+    }
+    return num
 }
 
 function stringRepeater(str) {
-    // Your code here
+    while (str.length < 10) {
+        str += str;
+    }
+    return str;
 }
 
 function makeDivisible(x, y) {
-    // Your code here
+    let outputX = x;
+    while (outputX % y !== 0) {
+        outputX++;
+    }
+    return outputX;
 }
 
 module.exports = {
