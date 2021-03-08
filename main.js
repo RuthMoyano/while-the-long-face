@@ -6,10 +6,11 @@ function numberDoubler(num) {
 }
 
 function stringRepeater(str) {
-    while (str.length < 10) {
-        str += str;
+    let outputStr = str;
+    while (outputStr.length < 10) {
+        outputStr += str;
     }
-    return str;
+    return outputStr;
 }
 
 function makeDivisible(x, y) {
